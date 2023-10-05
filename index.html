@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Student Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <fieldset id="form1">
+        <legend>Personal Details</legend>
+    
+    <form action="message.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname"> <br><br>
+
+        <label for="mname">Middle Name</label>
+        <input type="text" id="mname" name="mname"> <br><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname"> <br><br>
+
+        <label for="fname">Dob</label>
+        <input type="date" id="" name="fname"> <br><br>
+    </fieldset>
+    <br><br>
+    <fieldset id="form2">
+        <legend id="edu">Education Details</legend>
+        <label   for="dept" > DepartMent</label> <br><br>
+
+        <label for="CSE">CSE</label>
+        <input type="radio" id="CSE" name="dept">
+        <br><br>
+
+        <label for="ECE">ECE</label>
+        <input type="radio" id="ECE" name="dept">
+        <br><br>
+        <label for="MECH">MECH</label>
+        <input type="radio"id="MECH" name="dept">
+        <br><br>
+        <label for="CIVIL">CIVIL</label>
+        <input type="radio" id="CIVIL" name="dept">
+        <br><br>
+
+        <label for="yop">YOG</label>
+        <input list="yog"  id="yop" name="yop" placeholder=""> 
+
+        <datalist id="yog" >
+
+            <option >2018</option>
+            <option >2019</option>
+            <option >2020</option>
+            <option >2021</option>
+            <option >2022</option>
+            <option >2023</option>
+        </datalist>
+        <br><br>
+       
+        <label for="">Skills</label><br><br>
+
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="html"> <br><br>
+
+        <label for="css">CSSL</label>
+        <input type="checkbox" id="css" name="css"> <br><br>
+         
+        <label for="js">JAVASCRIPT</label>
+        <input type="checkbox" id="js" name="js"> <br><br>
+
+        
+        
+    </fieldset>
+
+
+        <br>
+   <a href="message.html"> Submit</a>
+
+    </form>
+
+</body>
+</html>
